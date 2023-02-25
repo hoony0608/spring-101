@@ -28,7 +28,7 @@ public class ApplicationContextExtendsFindTest {
         DiscountPolicy rateDiscountPolicy = ac.getBean("rateDiscountPolicy", DiscountPolicy.class);
     }
 
-
+//
 
     @Configuration
     static class testConfig {
